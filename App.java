@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class App {
+public class SobrecargaFunciones {
 
     // Media (int[])
     public static double calcular(int[] numeros) {
@@ -50,5 +50,10 @@ public class App {
         // Ejemplo 3: Mediana
         String[] cadenas = {"manzana", "naranja", "pera", "kiwi", "fresa"};
         System.out.println("Mediana: " + calcular(cadenas));
+
+        // Diferencia entre commit, push y pull:
+        // - Commit: Guarda los cambios realizados en el repositorio local con un mensaje descriptivo.
+        // - Push: Envía los cambios confirmados (commits) desde el repositorio local al repositorio remoto.
+        // - Pull: Trae y fusiona los cambios más recientes del repositorio remoto al local.
     }
 }
